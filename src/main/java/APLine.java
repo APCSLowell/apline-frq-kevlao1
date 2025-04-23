@@ -7,5 +7,5 @@ public APLine(int A, int B, int C){
   c = C;
 }
   public double getSlope(){return -1*a/b;}
-  public boolean isOnline(int x, int y){return a*x + b*y + c == 0};
+  public boolean isOnline(int x, int y){return a*x + b*y + c == 0;}
 }
